@@ -32,12 +32,18 @@ digital media could affect their marketing tactics.
 
 Analyzing the data to see how do annual members and casual riders use Cyclistic bikes differently.
 
-### Deliverables
+## Steps and Deliverables
 
-1. A clear statement of the business task  
-  - 	The primary objective of this analysis is to examine and compare the usage patterns of casual riders and annual members of Cyclistic bikes. By identifying the key differences in their riding behaviors, preferences, and usage trends, we aim to provide actionable insights that the marketing team can leverage to design effective strategies for converting casual riders into annual members, ultimately enhancing customer retention and driving revenue growth for Cyclistic.
+### A clear statement of the business task - ASK Phase
 
-2. A description of all data sources used
+	The primary objective of this analysis is to examine and compare the usage patterns of casual riders and annual members of Cyclistic bikes. By identifying the key differences in their riding behaviors, preferences, and usage trends, we aim to provide actionable insights that the marketing team can leverage to design effective strategies for converting casual riders into annual members, ultimately enhancing customer retention and driving revenue growth for Cyclistic.
+
+### A description of all data sources used - PROCESS
+
+  There is 12 .csv files that includes Cyclistic's last 1 year data. Here is the image of R script that shows how i upload them:
+
+  ![](preparation.png)
+
 3. Documentation of any cleaning or manipulation of data
 4. A summary of your analysis
 5. Supporting visualizations and key findings
