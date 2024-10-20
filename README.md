@@ -43,7 +43,9 @@ The primary objective of this analysis is to examine and compare the usage patte
 There is 12 .csv files that includes Cyclistic's previous year data. Here is the image of the R script that shows how i upload them:
 
 
-  ![Preparing the Data](output/preparation.png)
+![Preparing the Data](output/preparation.png)
+
+In this step, as we can see here, I loaded the 12 .csv files and then combined them into a single file in order to easier and more efficient analyzing. After that, removed the 12 separate files as we didn't need anymore.
   
 
 ### Documentation of any cleaning or manipulation of data - PROCESS Phase
@@ -51,6 +53,12 @@ There is 12 .csv files that includes Cyclistic's previous year data. Here is the
 Here is the image of the R script that shows the codes of cleaning the data:
 
 ![Cleaning the Data](output/cleaning.png)
+
+In this step, first I added new columns that we need for analyzing. "date" column for standart date format of the riding, "month" - "day" - "year" columns for holding them separately, "day_of_week" column for the name of the days and "hour" column for the time of ridings. All based on "started_at" column of the original data frame.
+
+Second, I added "ride_length" column as minutes and converted it to numeric variable.
+
+After adding neccessary columns, I cleaned the data by removing "bad" data, dublicates and columns that we don't need for analyzing.
 
 
 ### A summary of your analysis - ANALYZE Phase
@@ -61,7 +69,7 @@ Here is the image of the R script that shows the codes of analyzing the data:
 ![Analysing the Data](output/analyzing_02.png)
 
 
-### Supporting visualizations and key findings
+### Supporting visualizations and key findings - VISUALIZATION Phase
 
 Here is the image of the R script that shows the codes of visualizing the data:
 
