@@ -28,7 +28,7 @@ annual members. In order to do that, however, there is a need to better understa
 annual members and casual riders differ, why casual riders would buy a membership, and how
 digital media could affect their marketing tactics.
 
-### Goal of the project
+## Goal of the project
 
 Analyzing the data to see how do annual members and casual riders use Cyclistic bikes differently.
 
@@ -36,18 +36,41 @@ Analyzing the data to see how do annual members and casual riders use Cyclistic 
 
 ### A clear statement of the business task - ASK Phase
 
-	The primary objective of this analysis is to examine and compare the usage patterns of casual riders and annual members of Cyclistic bikes. By identifying the key differences in their riding behaviors, preferences, and usage trends, we aim to provide actionable insights that the marketing team can leverage to design effective strategies for converting casual riders into annual members, ultimately enhancing customer retention and driving revenue growth for Cyclistic.
+The primary objective of this analysis is to examine and compare the usage patterns of casual riders and annual members of Cyclistic bikes. By identifying the key differences in their riding behaviors, preferences, and usage trends, we aim to provide actionable insights that the marketing team can leverage to design effective strategies for converting casual riders into annual members, ultimately enhancing customer retention and driving revenue growth for Cyclistic.
 
-### A description of all data sources used - PROCESS
+### A description of all data sources used - PREPARE Phase
 
-  There is 12 .csv files that includes Cyclistic's last 1 year data. Here is the image of R script that shows how i upload them:
+There is 12 .csv files that includes Cyclistic's previous year data. Here is the image of the R script that shows how i upload them:
 
-  ![](output/preparation.png)
 
-3. Documentation of any cleaning or manipulation of data
-4. A summary of your analysis
-5. Supporting visualizations and key findings
-6. Your top three recommendations based on your analysis
+  ![Preparing the Data](output/preparation.png)
+  
+
+### Documentation of any cleaning or manipulation of data - PROCESS Phase
+
+Here is the image of the R script that shows the codes of cleaning the data:
+
+![Cleaning the Data](output/cleaning.png)
+
+
+### A summary of your analysis - ANALYZE Phase
+
+Here is the image of the R script that shows the codes of analyzing the data:
+
+![Analysing the Data](output/analyzing_01.png)
+![Analysing the Data](output/analyzing_02.png)
+
+
+### Supporting visualizations and key findings
+
+Here is the image of the R script that shows the codes of visualizing the data:
+
+![Visualizing the Data](output/visualizing_01.png)
+![Visualizing the Data](output/visualizing_02.png)
+
+
+
+### Your top three recommendations based on your analysis
 
 
 
