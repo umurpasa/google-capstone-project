@@ -42,7 +42,7 @@ Analyzing the data to see how do annual members and casual riders use Cyclistic 
 
   There is 12 .csv files that includes Cyclistic's last 1 year data. Here is the image of R script that shows how i upload them:
 
-  ![](preparation.png)
+  ![](output/preparation.png)
 
 3. Documentation of any cleaning or manipulation of data
 4. A summary of your analysis
