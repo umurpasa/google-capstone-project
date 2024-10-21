@@ -40,12 +40,12 @@ The primary objective of this analysis is to examine and compare the usage patte
 
 ### A description of all data sources used - PREPARE Phase
 
-There is 12 .csv files that includes Cyclistic's previous year data. Here is the image of the R script that shows how i upload them:
+There is 12 .csv files that includes Cyclistic's previous year data. Here is the image of the R script that shows how I uploaded them:
 
 
 ![Preparing the Data](output/preparation.png)
 
-In this step, as we can see here, I loaded the 12 .csv files and then combined them into a single file in order to easier and more efficient analyzing. After that, removed the 12 separate files as we didn't need anymore.
+In this step, I loaded the 12 .csv files and then combined them into a single file in order to easier and more efficient analyzing. After that, removed the 12 separate files as we didn't need them anymore.
   
 
 ### Documentation of any cleaning or manipulation of data - PROCESS Phase
@@ -61,12 +61,24 @@ Second, I added "ride_length" column as minutes and converted it to numeric vari
 After adding neccessary columns, I cleaned the data by removing "bad" data, dublicates and columns that we don't need for analyzing.
 
 
-### A summary of your analysis - ANALYZE Phase
+### A summary of the analysis - ANALYZE Phase
 
 Here is the image of the R script that shows the codes of analyzing the data:
 
 ![Analysing the Data](output/analyzing_01.png)
 ![Analysing the Data](output/analyzing_02.png)
+
+On the first two steps I calculated mean, median, max and min values of the ride length and then found these values for both member types in order to compare them.
+
+Then, analyzed the average ride time for members and casual users by each day of the week. Right after that, the part of the code does the same thing but also it shows the number of rides of the user types by the day of the week and create a table for that.
+
+Next, to see how the number of rides and average ride lenght differs by members, analyzed them separately.
+
+Finally, to see if there is significant difference between number of the rides of members by hour and by bike type, I compared it.
+
+
+
+
 
 
 ### Supporting visualizations and key findings - VISUALIZATION Phase
@@ -76,6 +88,15 @@ Here is the image of the R script that shows the codes of visualizing the data:
 ![Visualizing the Data](output/visualizing_01.png)
 ![Visualizing the Data](output/visualizing_02.png)
 
+First I uploaded the analysis script to visualization script because I wrote the codes separately for preparation, analyzing and visualization.
+
+For the first viz, I created a graph for the total rides by user type.
+
+![rides by user type](output/rides_by_user_type.png)
+
+As we can see, the members are almost twice as much casuals.
+
+Then I 
 
 
 ### Your top three recommendations based on your analysis
