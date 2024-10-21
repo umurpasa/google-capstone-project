@@ -119,6 +119,17 @@ Last, we see below the comparision of the members by bike type. There is importa
 ![rides by bike type](output/rides_by_bike_type.png)
 
 
+### Insights
+
+Based on the analysis, the most significant insights are:
+
+1. Casual riders tend to have longer ride durations compared to annual members, often nearly double in length.
+
+2. Annual members consistently take more rides, particularly on weekdays, whereas casual riders show increased activity on weekends, narrowing the gap between the two groups.
+
+3. Ride patterns vary by time of day, with casual riders more active during midday hours and members showing a more even distribution throughout the day.
+
+
 ### Three recommendations based on your analysis
 
 1. Weekend Promotions: Since casual riders tend to use the service more during weekends, creating membership promotions or discounts specifically for weekends could encourage them to become annual members.
@@ -126,3 +137,8 @@ Last, we see below the comparision of the members by bike type. There is importa
 2. Incentivize Long Rides: Casual riders generally have longer ride durations than members. Offering incentives, like discounts on long rides for members, could convert these casual users into loyal annual members.
 
 3. Targeted Marketing for Midday Usage: Casual riders often ride more in the middle of the day. Running membership campaigns during these hours could attract casual users to subscribe.
+
+
+> I used R and RStudio for all process and here is the libraries I used:
+
+![libraries](libraries.png)
