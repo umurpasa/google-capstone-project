@@ -110,7 +110,7 @@ The difference between the members decreasing by middle of the day and night hou
 
 After that, we see the average ride length comparison between members by day, below.
 
-![avg. ride length by day](output/avg_ride_length_by_day.png)
+![avg. ride length by day](output/avg_ride_lenght_by_day.png)
 
 Significantly, casual members' riding time is more than the members, twice as much almost always. Since we know the number of the rides of the casuals always, especially on weekdays, less than members, this is an interesting insight. We can tell that riding time of the casuals way much more than casuals.
 
