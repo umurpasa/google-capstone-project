@@ -130,7 +130,7 @@ Based on the analysis, the most significant insights are:
 3. Ride patterns vary by time of day, with casual riders more active during midday hours and members showing a more even distribution throughout the day.
 
 
-### Three recommendations based on your analysis
+### Three recommendations based on your analysis - ACT Phase
 
 1. Weekend Promotions: Since casual riders tend to use the service more during weekends, creating membership promotions or discounts specifically for weekends could encourage them to become annual members.
 
@@ -141,4 +141,4 @@ Based on the analysis, the most significant insights are:
 
 > I used R and RStudio for all process and here is the libraries I used:
 
-![libraries](libraries.png)
+![libraries](output/libraries.png)
