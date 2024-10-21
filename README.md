@@ -96,10 +96,31 @@ For the first viz, I created a graph for the total rides by user type.
 
 As we can see, the members are almost twice as much casuals.
 
-Then I 
+Then I looked at if there is a significant difference with number of rides between members by day.
+
+![rides by day](output/rides_by_day.png)
+
+And I notices that although there are always more casual members, the difference narrows significantly on weekends. 
+
+Next, lets look at the comparison of the number of rides by hours.
+
+![rides by hour](output/rides_by_hour.png)
+
+The difference between the members decreasing by middle of the day and night hours, we draw this conclusion from here.
+
+After that, we see the average ride length comparison between members by day, below.
+
+![avg. ride length by day](output/avg_ride_length_by_day.png)
+
+Significantly, casual members' riding time is more than the members, twice as much almost always. Since we know the number of the rides of the casuals always, especially on weekdays, less than members, this is an interesting insight. We can tell that riding time of the casuals way much more than casuals.
+
+Last, we see below the comparision of the members by bike type. There is important difference with classis bike between them.
+
+![rides by bike type](output/rides_by_bike_type.png)
 
 
-### Your top three recommendations based on your analysis
+
+### Three recommendations based on your analysis
 
 
 
